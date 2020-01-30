@@ -1,9 +1,11 @@
 class Person {
   String name;
   int age;
-  final String address = 'China';
+  String birthday;
 
-  void work() {
-    print('name is ${name}, age is ${age}, TA is working');
+  bool get isAdult => age > 18;
+
+  void run() {
+    print('person run...');
   }
 }
