@@ -5,6 +5,5 @@ void main() {
   person.name = 'Zi Ye';
   person.age = 23;
   print(person.name);
-  print(person.birthday);
   person.run();
 }
